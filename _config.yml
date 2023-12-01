@@ -13,7 +13,7 @@ name                     : &name "Koshiro Nagano"
 description              : &description "Researcher"
 url                      : https://ko4ro.github.io/koshironagano.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "koshironaagno/koshironaagno.github.io"
+repository               : "koshironagno/koshironagno.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Koshiro Nagano"
   avatar           : "avatar.jpg" # "2018-03-31.JPG"
-  bio              : "Computer Vision Researcher"
-  location         : "Tokyo, Japan"
+  bio              : "Computer Vision Engineer/Researcher"
+  location         : "Osaka, Japan"
   employer         :
-  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   googlescholar    : https://scholar.google.co.jp/citations?user=W1KPqGEAAAAJ
-  email            : "ryo-hachiuma@hvrl.ics.keio.ac.jp"
-  researchgate     :  "https://www.researchgate.net/profile/Ryo_Hachiuma"
+  email            : "koshiro.nagano@gmail.com"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ryohachiuma"
+  github           : "ko4ro"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/ryo-hachiuma-4669bb137/"
+  linkedin         : "https://www.linkedin.com/in/koshironagano/"
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "RHachiuma"
+  twitter          : "_ko4ro_"
   vine             :
   weibo            :
   xing             :
