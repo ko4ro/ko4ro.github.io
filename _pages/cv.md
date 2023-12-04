@@ -11,7 +11,7 @@ redirect_from:
 
 ## Education
 - B.S. in Mathematical Informatics, Tokyo Denki University, 2020
-- M.S. in Mathematical Informatics, Tokyo Denki University, 2020
+- M.S. in Mathematical Informatics, Tokyo Denki University, 2022
 
 ## Work experience
 * Feb. 2019 - Mar. 2022: Internship
@@ -21,7 +21,7 @@ redirect_from:
 * Oct. 2021 - Mar. 2022: Technical Writer
   * Wevnal Inc. AI-SCHOLAR
 * Apr. 2022 - : Computer Vision Engineer/Researcher
-  * Konicaminolta
+  * Konicaminolta　Inc.
 
 ## Competitions
 - Pedestrian Attribute Recognition and Person Retrieval Challenge WACV2023 Workshop  <b>6th Place </b> [Link](https://chalearnlap.cvc.uab.es/challenge/52/description/)
