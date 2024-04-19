@@ -16,8 +16,6 @@ redirect_from:
 ## Work experience
 * Feb. 2019 - Mar. 2022: Internship
   * Ghelia Inc. AI Technology Department
-* Sep. 2020 - Nov. 2020: Internship
-  * SkillUp AI Inc.  JDLA Deep Learning for GENERAL Progtam
 * Oct. 2021 - Mar. 2022: Technical Writer
   * Wevnal Inc. AI-SCHOLAR
 * Apr. 2022 - : Computer Vision Engineer/Researcher
