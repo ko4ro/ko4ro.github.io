@@ -11,6 +11,6 @@ redirect_from:
 I am currently work at Konicaminolta in Japan.
 
 My resume can be downloaded from [here](./resume.pdf).
-My casual site is [here](https://admiring-visvesvaraya-217551.netlify.app/index_en)
+
 ## News
 - I open this site [Dec.2023]
