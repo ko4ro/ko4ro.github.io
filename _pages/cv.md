@@ -12,6 +12,7 @@ redirect_from:
 ## Education
 - B.S. in Mathematical Informatics, Tokyo Denki University, 2020
 - M.S. in Mathematical Informatics, Tokyo Denki University, 2022
+- Ph.D in Computer Vision Engineering, Keio University, 2027(TBD)
 
 ## Work Experience
 * Feb. 2019 - Mar. 2022: Internship
