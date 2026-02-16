@@ -84,11 +84,11 @@ author:
   avatar           : "avatar.jpg" # "2018-03-31.JPG"
   bio              : "Computer Vision Engineer/Researcher"
   location         : "Tokyo, Japan"
-  employer         :
+  employer         : "Keio University"
   pubmed           :
-  googlescholar    : https://scholar.google.co.jp/citations?user=XdKoFn8AAAAJ&hl
+  googlescholar    : "https://scholar.google.co.jp/citations?user=XdKoFn8AAAAJ&hl"
   email            : "koshiro.nagano@gmail.com"
-  researchgate     : https://www.researchgate.net/profile/Koshiro-Nagano
+  researchgate     : "https://www.researchgate.net/profile/Koshiro-Nagano"
   uri              :
   bitbucket        :
   codepen          :
@@ -103,7 +103,7 @@ author:
   impactstory      : 
   lastfm           :
   linkedin         : "koshironagano"
-  orcid            : https://orcid.org/0009-0008-5007-1460
+  orcid            : "https://orcid.org/0009-0008-5007-1460"
   pinterest        :
   soundcloud       :
   stackoverflow    : 
