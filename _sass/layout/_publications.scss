@@ -1,0 +1,74 @@
+// Publication card layout
+.pub-card {
+  display: flex;
+  gap: 1.5em;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #e0e0e0;
+  align-items: flex-start;
+
+  &__teaser {
+    flex: 0 0 160px;
+    width: 160px;
+
+    img {
+      width: 100%;
+      border-radius: 4px;
+      object-fit: cover;
+    }
+  }
+
+  &__body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__title {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__authors {
+    margin: 0.2em 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  &__venue {
+    margin: 0.2em 0;
+    font-size: 0.9em;
+  }
+
+  &__excerpt {
+    margin: 0.5em 0;
+    font-size: 0.85em;
+    color: #444;
+  }
+
+  &__links {
+    margin-top: 0.7em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+  }
+}
+
+@media (max-width: 600px) {
+  .pub-card {
+    flex-direction: column;
+
+    &__teaser {
+      width: 100%;
+      flex: none;
+    }
+  }
+}
