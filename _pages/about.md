@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "Koshiro Nagano"
+excerpt: "Koshiro Nagano"
 author_profile: true
 redirect_from:
   - /about/
