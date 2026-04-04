@@ -11,3 +11,4 @@ venue: 'ISCIE SSS 2020'
 paperurl: 'https://www.jstage.jst.go.jp/article/sss/2021/0/2021_65/_article/-char/ja/'
 citation: '<b>K. Nagano</b>, Y. Mukouyama, T. Nishimura, H. Fujioka, K. Watanabe, T. Kurita, A. Hidaka, "Noise Reduction of SEM Images using U-net with SSIM Loss Function," ISCIE SSS 2020, 2020.'
 ---
+We propose a U-Net-based noise reduction method for SEM images trained with an SSIM loss function.

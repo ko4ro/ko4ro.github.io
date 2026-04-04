@@ -12,3 +12,4 @@ venue: 'ICIP 2025'
 paperurl: 'https://ieeexplore.ieee.org/document/11084624'
 citation: '<b>K. Nagano</b>, F. Sato, R. Hachiuma, K. Tsutsukawa, T. Sekii, "Frozen Network Few-Shot Object Detection," ICIP, 2025.'
 ---
+We propose a generalized few-shot object detection method that freezes the pretrained backbone network during fine-tuning.
