@@ -6,27 +6,32 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
 {% endif %}
 
 {% include base_path %}
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-publications.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-publications.html %}
-  {% endfor %}
+{% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+{% assign conferences = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
+{% assign preprints = site.publications | where: "category", "preprints" | sort: "date" | reverse %}
+
+{% if manuscripts.size > 0 %}
+### Journal Papers
+{% for post in manuscripts %}
+  {% include archive-publications.html %}
+{% endfor %}
+{% endif %}
+
+{% if conferences.size > 0 %}
+### Conference Papers
+{% for post in conferences %}
+  {% include archive-publications.html %}
+{% endfor %}
+{% endif %}
+
+{% if preprints.size > 0 %}
+### Preprints
+{% for post in preprints %}
+  {% include archive-publications.html %}
+{% endfor %}
 {% endif %}
