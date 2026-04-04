@@ -1,25 +1,39 @@
 ---
 permalink: /
 title: "Koshiro Nagano"
-excerpt: "Koshiro Nagano"
+seo_title: "Koshiro Nagano"
+description: "Koshiro Nagano is a Ph.D. student at Keio University working on computer vision, few-shot object detection, and data-efficient deep learning."
+excerpt: "Koshiro Nagano is a Computer Vision researcher at Keio University focused on synthetic-to-real transfer learning, and continual learning."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a Computer Vision Engineer at Konicaminolta, Japan. 
-And, I am a Ph.D. student at Keio University advised by Prof. [Hideo Saito](https://scholar.google.co.jp/citations?user=JU9x-bcAAAAJ&hl=ja).
-My research focuses on deep learning-based image processing and object detection, with particular interest in data-efficient learning methods.
+Hi, I'm **Koshiro Nagano**, a Ph.D. student at Keio University advised by Prof. [Hideo Saito](https://scholar.google.co.jp/citations?user=JU9x-bcAAAAJ&hl=ja). I work as a Computer Vision Engineer at Konica Minolta, Japan. My research focuses on data-efficient deep learning, with particular interest in few-shot object detection and learning from synthetic data.
 
+## 📝 Research Interests
 
-### 📝 Research Interests
-- Few-Shot / Generalized Few-Shot Object Detection
-- Image Processing & Noise Reduction (SEM, Microscopy)
-- Vision-Language Pretraining
-- Deep Learning for Computer Vision
+<!-- • **Data-Efficient Learning**: Few-Shot / Generalized Few-Shot Object Detection -->
 
-### 📰 News
-- \[Feb. 2026\] Our paper "Learning from Synthetic Data via Provenance-Based Input Gradient Guidance" was accepted at **CVPR 2026** (Acceptance rate: ~25%)
-- \[Sep. 2025\] Our paper "Frozen Network Few-Shot Object Detection" was accepted at **ICIP 2025** (Acceptance rate: ~40%)
-- \[Dec. 2023\] I opened this site
+• **Sim2Real**: Synthetic-to-Real Transfer Learning, Domain Adaptation
+
+• **Continual Learning**: Streaming Video Understanding, Catastrophic Forgetting
+
+• **Edge AI**: Efficient Learning Design, On-Device Inference
+
+## 📰 News
+
+• [2026/04] Our paper has been accepted to [CVPR 2026](/publication/nagano2026-cvpr) (Acceptance rate: ~25%)
+
+• [2025/09] Our paper has been accepted to [ICIP 2025](/publication/nagano2025-icip)
+
+• [2023/12] I opened this site
+
+## 📄 Selected Publications
+
+{% include base_path %}
+{% assign selected_pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
+{% for post in selected_pubs %}
+{% include archive-single-publication-compact.html %}
+{% endfor %}

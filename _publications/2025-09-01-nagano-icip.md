@@ -7,6 +7,7 @@ excerpt: 'Few-shotオブジェクト検出において、事前学習済みネ�
 thumbnail: 'icip25.png'
 authors: '<b>Koshiro Nagano</b>, Fumiaki Sato, Ryo Hachiuma, Kazuki Tsutsukawa, Taiki Sekii'
 date: 2025-09-01
+selected: true
 venue: 'IEEE International Conference on Image Processing (ICIP)'
 paperurl: 'https://ieeexplore.ieee.org/document/11084624'
 citation: '<b>K. Nagano</b>, F. Sato, R. Hachiuma, K. Tsutsukawa, T. Sekii, "Frozen Network Few-Shot Object Detection," ICIP, 2025.'
