@@ -9,6 +9,7 @@ authors: '<b>Koshiro Nagano</b>, Ryo Fujii, Ryo Hachiuma, Fumiaki Sato, Taiki Se
 date: 2026-04-01
 venue: 'CVPR 2026'
 venue_info: 'Acceptance Rate: 25.42%, h5-index: 450'
+paperurl: 'https://arxiv.org/abs/2604.02946'
 selected: true
 citation: '<b>K. Nagano</b>, R. Fujii, R. Hachiuma, F. Sato, T. Sekii, H. Saito, "Learning from Synthetic Data via Provenance-Based Input Gradient Guidance," CVPR, 2026.'
 ---
